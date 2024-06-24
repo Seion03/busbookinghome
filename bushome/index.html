@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey Sync</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+        <button id="nav-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="logo">Journey Sync</div>
+        <div class="profile-icon">
+            <i class="fas fa-user-circle"></i>
+        </div>
+    </header>
+
+    <nav id="main-nav">
+        <ul>
+            <li class="active"><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#tickets"><i class="fas fa-ticket-alt"></i> Tickets</a></li>
+            <li><a href="#profile"><i class="fas fa-user"></i> Profile</a></li>
+            <li><a href="#settings"><i class="fas fa-cog"></i> Settings</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Journey Sync</h1>
+            <p>Your ultimate bus booking companion</p>
+            <a href="#book-now" class="cta-button">Book Now</a>
+        </section>
+
+        <section class="carousel">
+            <div class="carousel-container">
+                <img src="https://source.unsplash.com/1600x900/?bus" alt="Bus 1" class="active">
+                <img src="https://source.unsplash.com/1600x900/?travel" alt="Bus 2">
+                <img src="https://source.unsplash.com/1600x900/?journey" alt="Bus 3">
+            </div>
+        </section>
+
+        <section class="booked-trips">
+            <h2>Your Booked Trips</h2>
+            <ul class="trip-list" id="trip-list">
+                <!-- Trip items will be added here dynamically -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#privacy">Privacy Policy</a>
+        </div>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Journey Sync. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
