@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey Sync</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">Journey Sync</div>
+        <div class="profile-icon">👤</div>
+    </header>
+
+    <nav id="main-nav">
+        <ul>
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#tickets">Tickets</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="nav-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+        <section class="carousel">
+            <img src="bus1.jpg" alt="Bus 1" class="active">
+            <img src="bus2.jpg" alt="Bus 2">
+            <img src="bus3.jpg" alt="Bus 3">
+        </section>
+
+        <section class="booked-trips">
+            <h2>Your Booked Trips</h2>
+            <ul class="trip-list" id="trip-list">
+                <!-- Trip items will be added here dynamically -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#privacy">Privacy Policy</a>
+        </div>
+        <p>&copy; 2024 Journey Sync. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
